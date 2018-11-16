@@ -1,4 +1,4 @@
-var ContactUsView = React.createClass({
+var contactUsView = React.createClass({
   render: function() {
     return (
       React.createElement('div', {className: 'ContactView'},
