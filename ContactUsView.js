@@ -4,8 +4,8 @@ var ContactUsView = React.createClass({
       React.createElement('div', {className: 'ContactView'},
 
       React.createElement('div', {className: 'ImageContainer'},
-        React.createElement('img', { src: './baby.png', height: 42 }, "babypad" ),
-        React.createElement('div', {className: 'div'}, "\n")
+        React.createElement('img', { src: './baby.png', height: 42 } ),
+        React.createElement('text', {className: 'text'}, "babypad")
       ),
 
       React.createElement('div', {className: 'ContactUs'}, "Contact us\n"),
